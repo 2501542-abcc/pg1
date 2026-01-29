@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>健康管理記録</title>
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script defer src="js/script.js" type="text/javascript" charset="utf-8"></script>
+</head>
+
+<body>
+    <div class="container">
+        <h1>健康管理記録</h1>
+        <div class="form">
+            <label>
+                日付
+                <input type="date" id="date">
+            </label>
+            <label>
+                体重
+                <input type="number" id="weight" step="0.1" placeholder="例: 58.5" >
+            </label>
+            <label>
+                睡眠時間
+                <input type="number" id="sleep" step="0.1" placeholder="例: 6.5">
+            </label>
+            <label>
+                メモ
+                <textarea id="memo" placeholder="体調・運動・食事など"></textarea>
+            </label>
+            <button type="button">記録する</button>
+        </div>
+
+        <h2>記録一覧</h2>
+        <div id="recordlist" class="record-list">
+
+        </div>
+    </div>
+<small>2501542 桂下悠征</small>
+</body>
+
+</html>
